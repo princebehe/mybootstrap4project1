@@ -1,0 +1,122 @@
+.jumbotron h1{
+    font-size: 60px;
+
+}
+
+.jumbotron p{
+    font-size: 30px;
+
+}
+
+.maincolor{
+    background-color: #12a4f8;
+    color: white;
+    
+}
+
+.maincolor:hover{
+    background-color: #0682ca;
+    color: white;
+}
+.banner{
+    background-image: url('../images/dg-bg1.jpg');
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+}
+
+.TitleAnim{
+    animation-name: myanim;
+    animation-duration: 4s;
+    position: relative;
+
+}
+
+@keyframes myanim {
+    0%   {opacity: 0.1; top: -100px}
+    100%  {opacity: 1.0; top: 0px}
+}
+.features{
+    color:#0069D9
+    
+}
+.features i{
+    color: #0069D9;
+    font-size: 50px;
+    padding:30px;
+    margin: 0px 40px 0px 40px;
+    border: 1px solid;
+    border-color: #a7def9;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}
+/* .features div{
+    display: inline-block;
+} */
+.features i:hover{
+    color: #fbfcfd;
+    background-color: #0069D9;
+}
+.testimonysection{
+    background-color: rgb(217, 217, 217);
+
+}
+.testimonysection .p-6{
+    padding: 150px;
+
+}
+.cta{
+    background-color: rgb(161, 161, 161);
+
+}
+.footer{
+    background-color: #292B33;
+    
+}
+.footer .nav-link{
+    background-color: rgb(43, 47, 51);
+    color: white;
+    margin: 2px 0px 0px 0px;  /* top right bottom left */
+    border-radius: 5px;
+}
+.footer .nav-link:hover{
+    background-color: #0069D9;   
+}
+
+.recentcourses .left{
+    background-color: rgb(43, 47, 51);
+    border-right: 5px solid #0069D9; 
+
+}
+.recentcourses .left:hover{
+    background-color:  #0069D9;
+    color: white;
+   
+}
+.recentcourses .left:hover .bottom{
+    background-color:  #0069D9;
+    color: white;
+   
+}
+.recentcourses .bottom{
+    background-color: rgb(43, 47, 51); 
+   
+
+}
+.recentcourses .top{
+    border-bottom: 1px solid gray; 
+    padding-bottom: 1px;
+}
+.copyrightbar{
+    background-color: #292B33;
+    border-top: 1px solid gray;
+    
+}
+.courses img:hover{
+    opacity: 0.6;
+    transform: tranlate(0px, -8px); 
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+
